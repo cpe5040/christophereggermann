@@ -1,2 +1,2 @@
 # home
-<h1>it worked!</h1>
+<h1>CNAME resolved</h1>
