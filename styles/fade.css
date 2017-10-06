@@ -1,0 +1,50 @@
+/*the fade animation for class fade images*/
+.fade {
+      opacity:0;
+      opacity: 1 \9; /*just in case ie*/
+      -webkit-animation:fadeIn ease-in 1;
+      -moz-animation:fadeIn ease-in 1;
+      animation:fadeIn ease-in 1;
+
+      -webkit-animation-fill-mode:forwards;
+      -moz-animation-fill-mode:forwards;
+      animation-fill-mode:forwards;
+
+      -webkit-animation-duration:1s;
+      -moz-animation-duration:1s;
+      animation-duration:1s;
+
+}
+
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+/* order and timing for fade */
+
+.fade.one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.fade.two {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.fade.three {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.fade.four {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+.fade.five {
+  -webkit-animation-delay:3s;
+  -moz-animation-delay:3s;
+  animation-delay:3s;
+}
