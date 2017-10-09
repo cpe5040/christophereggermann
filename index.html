@@ -8,104 +8,81 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="styles/fade.css" type="text/css">
 		<link rel="stylesheet" href="styles/fonts.css" type="text/css">
+		<link rel="stylesheet" href="styles/classes.css" type="text/css">
+		<link rel="stylesheet" href="css/pre-loader.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,500" rel="stylesheet">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <scrpt src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-</head>
-
+	</head>
 	<body>
-		<!-- navigation bar, loads third -->
-			<div class="fade five">
+		<!-- preloader -->
+		<!--CSS Spinner-->
+		<div class="spinner">
+		  <div class="bounce1"></div>
+		  <div class="bounce2"></div>
+		  <div class="bounce3"></div>
+		</div>
+		<!-- navigation bar, loads with scroll img -->
+			<div class="fade six">
 				<topnav>
 					<a href="">Home</a>
 				  <a href="">Me</a>
 				  <a href="">Pics</a>
-				  <a href="">More</a>
+				  <a href="">More
+					<a href=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Return to Top</a>
 				<topnav>
 			</div>
-
 		<!-- picture, loads first -->
-		<div class="fade one">
-			<img src="images/chris_emily.jpg" class="img-circle img-responsive" height="550px" width="550px">
-				<style>
-						img{
-					      position:absolute;
-								top:-30%;
-					      left:0;
-					      right:0;
-					      bottom:0;
-					      margin:auto;
-					  }
-				</style>
-		</div>
+			<div class="fade one">
+				<img src="images/chris.jpg" class="img-circle img-responsive image1" height="550px" width="550px">
+			</div>
 		<!-- name, loads second -->
 			<div class="fade two">
-				<name>
-					Christopher P. Eggermann
-					<style>
-							name{
-						      position:absolute;
-									top:65%;
-						      left:0;
-						      right:0;
-						      bottom:0;
-						      margin:auto;
-						  }
-					</style>
-				</name>
+				<name>Christopher P. Eggermann</name>
 			</div>
-			<!-- school, loads third -->
+		<!-- school, loads third -->
 			<div class="fade three">
-				<school>
-					The Pennsylvania State University <br>
-					<style>
-							school{
-									position:absolute;
-									top:73%;
-									left:0;
-									right:0;
-									bottom:0;
-									margin:auto;
-							}
-					</style>
-				</school>
+				<school>The Pennsylvania State University</school>
 			</div>
-			<!-- major, loads fourth -->
+		<!-- major, loads fourth -->
 			<div class="fade four">
-				<major>
-				Security and Risk Analysis
-				<style>
-						major{
-								position:absolute;
-								top:76%;
-								left:0;
-								right:0;
-								bottom:0;
-								margin:auto;
-						}
-				</style>
-			</major>
+				<major>Security and Risk Analysis</major>
 			</div>
-			<!-- option, loads fifth -->
+		<!-- option, loads fifth -->
 			<div class="fade five">
-				<majoroption>
-				Intelligence Analysis and Modeling
-				<style>
-						majoroption{
-								position:absolute;
-								top:79%;
-								left:0;
-								right:0;
-								bottom:0;
-								margin:auto;
-						}
-				</style>
-			</majoroption>
+				<majoroption>Intelligence Analysis and Modeling</majoroption>
 			</div>
-		<!--jQuery, Popper.js, Boosstrap JS-->
+		<!-- scroll icon, loads last -->
+			<div class="fade six">
+				<img src="images/scroll.png" class="image2">
+		<!-- recent experience -->
+			<div>
+				<experience1>
+					<b>Liberty Mutual Insurance</b><br>
+					Technology Associate<br>
+					June 2017 - present
+				</experience1>
+				<experience2>
+					<b>Student Orientation and Transition Programs</b><br>
+					Student Program Specialist<br>
+					March 2015 - August 2016
+				</experience2>
+				<experience3>
+					<b>The Bryce Jordan Center</b><br>
+					Usher, Stage Hand, Badass<br>
+					October 2013 - May 2017
+				</experience3>
+			</div>
+
+		<!--jQuery, Popper.js, Boosstrap JS, custom scroll js-->
+		<script type='text/javascript' language='javascript' src='js/scroll-fade.js'/>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<script type='text/javascript' language='javascript' src='js/pre-loader.js'/>
 	</body>
 </html>

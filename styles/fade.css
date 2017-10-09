@@ -29,22 +29,27 @@
   animation-delay: 1s;
 }
 .fade.two {
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-.fade.three {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   animation-delay: 2s;
 }
+.fade.three {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
 .fade.four {
-  -webkit-animation-delay: 2.5s;
-  -moz-animation-delay: 2.5s;
-  animation-delay: 2.5s;
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 .fade.five {
-  -webkit-animation-delay:3s;
-  -moz-animation-delay:3s;
-  animation-delay:3s;
+  -webkit-animation-delay:4s;
+  -moz-animation-delay:4s;
+  animation-delay:4s;
+}
+.fade.six {
+  -webkit-animation-delay:5s;
+  -moz-animation-delay:5s;
+  animation-delay:5s;
 }

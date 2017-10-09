@@ -1,0 +1,23 @@
+.image1 {
+  position:absolute;
+  top:-30%;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.image2 {
+    position:absolute;
+    top:85%;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    opacity: 0.5;
+    width: 40px;
+}
